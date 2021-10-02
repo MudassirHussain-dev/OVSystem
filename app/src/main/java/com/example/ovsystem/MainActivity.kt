@@ -12,12 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        bnv_Main.add(MeowBottomNavigation.Model(1, R.drawable.ic_add))
-        bnv_Main.add(MeowBottomNavigation.Model(2, R.drawable.ic_add))
-        bnv_Main.add(MeowBottomNavigation.Model(3, R.drawable.ic_add))
-        bnv_Main.add(MeowBottomNavigation.Model(4, R.drawable.ic_add))
+        bnv_Main.add(MeowBottomNavigation.Model(1, R.drawable.shops))
+        bnv_Main.add(MeowBottomNavigation.Model(2, R.drawable.searchs))
+        bnv_Main.add(MeowBottomNavigation.Model(3, R.drawable.ic_favorite))
+        bnv_Main.add(MeowBottomNavigation.Model(4, R.drawable.account))
 
-        bnv_Main.show(1, true)
+
+        bnv_Main.show(3, true)
+
+
+
         replace(HomeFragment())
         bnv_Main.setOnClickMenuListener {
             when (it.id) {

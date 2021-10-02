@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <com.etebarian.meowbottomnavigation.MeowBottomNavigation
         android:id="@+id/bnv_Main"
         android:layout_width="match_parent"
@@ -25,7 +24,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:mbn_backgroundBottomColor="#ffffff"
+        app:mbn_backgroundBottomColor="#98CAF3"
         app:mbn_circleColor="#ffffff"
         app:mbn_countBackgroundColor="#ff6f00"
         app:mbn_countTextColor="#ffffff"
