@@ -4,30 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DemoActivity">
-
-    <!--
-    slideranimation duration is to set duration for transition between two slides
-    sliderautocycledirection is to set animationbetween transition of your slides
-    sliderindicator enables is used to display the indicators for slider
-    slider indicator gravity is to set gravity for indicator gravity
-    slider indicator margin is to set margin for indicator
-    slider indicator orientation is used to add orientation for slider
-    slider indicator padding is use to add padding to indicator
-    slider indicator selected color is use to specify selected color
-    and slider indicator unselected color is use to specify the color when the slider is unselected
-    slider scroll time in sec is used to specify scrolling time in seconds
-     -->
+    tools:context=".MainActivity">
 
     <com.smarteist.autoimageslider.SliderView
-        android:id="@+id/slider1"
+        android:id="@+id/image_slider"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_centerInParent="true"
+        android:layout_height="300dp"
         app:sliderAnimationDuration="600"
         app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
         app:sliderIndicatorAnimationDuration="600"
-        app:sliderIndicatorEnabled="true"
         app:sliderIndicatorGravity="center_horizontal|bottom"
         app:sliderIndicatorMargin="15dp"
         app:sliderIndicatorOrientation="horizontal"
@@ -35,7 +21,17 @@
         app:sliderIndicatorRadius="2dp"
         app:sliderIndicatorSelectedColor="#5A5A5A"
         app:sliderIndicatorUnselectedColor="#FFF"
-        app:sliderScrollTimeInSec="1" />
+        app:sliderScrollTimeInSec="2"
+        app:sliderStartAutoCycle="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image_slider"
+        android:textAlignment="center"
+        android:text="Auto Image Slider Tutorial"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"/>
 
 </RelativeLayout>
