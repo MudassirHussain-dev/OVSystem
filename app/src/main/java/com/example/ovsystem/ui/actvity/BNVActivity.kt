@@ -1,11 +1,10 @@
-package com.example.ovsystem
+package com.example.ovsystem.ui.actvity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.ovsystem.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BNVActivity : AppCompatActivity() {
@@ -13,7 +12,7 @@ class BNVActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.bnv_activity)
 
-        /*  bottomNavigationView.background = null
+        /*bottomNavigationView.background = null
           bottomNavigationView.menu.getItem(2).isEnabled = false
 
           fab.setOnClickListener { startActivity(Intent(this@BNVActivity,MainActivity::class.java)) }

@@ -13,22 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OVSystem">
         <activity
-            android:name=".DemoActivity"
-            android:exported="true">
-
-        </activity>
+            android:name=".ui.actvity.ProductDetailActivity"
+            android:exported="true" />
         <activity
-            android:name=".BNVActivity"
+            android:name=".ui.fragment.DemoActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ui.actvity.BNVActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.actvity.MainActivity"
             android:exported="true" />
 
         <meta-data

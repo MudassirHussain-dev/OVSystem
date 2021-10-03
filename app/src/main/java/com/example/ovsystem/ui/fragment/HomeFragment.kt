@@ -1,17 +1,12 @@
-package com.example.ovsystem
+package com.example.ovsystem.ui.fragment
 
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
-import com.example.ovsystem.adapter.SliderImageAdapter
-import com.example.ovsystem.model.SliderData
-import com.smarteist.autoimageslider.SliderView
-import kotlinx.android.synthetic.main.fragment_home.*
-import java.util.*
+import com.example.ovsystem.R
 
 
 class HomeFragment : Fragment() {

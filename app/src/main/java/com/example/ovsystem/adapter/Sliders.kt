@@ -7,7 +7,6 @@ import android.widget.ImageView
 import com.example.ovsystem.R
 import com.smarteist.autoimageslider.SliderViewAdapter
 
-
 class Sliders(var images: IntArray) : SliderViewAdapter<Sliders.Holder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup): Holder {

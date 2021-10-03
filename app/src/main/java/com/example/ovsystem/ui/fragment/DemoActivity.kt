@@ -1,7 +1,8 @@
-package com.example.ovsystem
+package com.example.ovsystem.ui.fragment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.ovsystem.R
 import com.example.ovsystem.adapter.Sliders
 import com.example.ovsystem.model.SliderData
 import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType

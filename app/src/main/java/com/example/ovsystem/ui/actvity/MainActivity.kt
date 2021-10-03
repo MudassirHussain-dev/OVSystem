@@ -1,9 +1,11 @@
-package com.example.ovsystem
+package com.example.ovsystem.ui.actvity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
+import com.example.ovsystem.ui.fragment.HomeFragment
+import com.example.ovsystem.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 
